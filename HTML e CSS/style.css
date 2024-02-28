@@ -24,9 +24,12 @@ nav a:hover {
     background-color: #999;
 }
 section {
+    border-radius: 20px;
     padding: 20px;
     margin: 20px;
     background-color: #fff;
+
+    
 }
 footer {
     text-align: center;

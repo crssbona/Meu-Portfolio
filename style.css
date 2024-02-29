@@ -1,52 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
     margin: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
-     margin: 0;
     padding: 0;
     background-color: #004166;
 }
+
 header {
     background-color: #093046;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
+
 nav {
     text-align: center;
     padding: 10px 0;
     background-color: #2978A6;
 }
+
 nav a {
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
 }
+
 nav a:hover {
     background-color: #093046;
 }
+
 section {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
     background-color: #DFF3FF;
 }
-footer {
-    text-align: center;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-.contact-buttom{
+
+#botao-bandeira {
+    background-color: #DFF3FF;
+    display: flex;
+    padding: 0px;
+    border: none;
     
+}
+
+#imagem-bandeira {
+    padding-top: 5px;
+    padding-right: 1px;
+    background-color: #DFF3FF;
+    border: none;
+    height: 35px;
+}
+
+#botao-avatar {
+    
+    background-color: #DFF3FF;
+    display: flex;
+    padding: 0px;
+    border: none;
+}
+
+#imagem-avatar {
+   
+    padding-top: 5px;
+    padding-right: 1px;
+    background-color: #DFF3FF;
+    border: none;
+    height: 35px;
+}
+
+.contact-buttom {
     border-radius: 20px;
 }
-#contact-buttom{
+
+#contact-buttom {
     background-color: #DFF3FF;
     border: none;
 }
-#image-buttom{
+
+#image-buttom {
     height: 35px;
 }

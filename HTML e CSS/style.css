@@ -1,11 +1,12 @@
 body {
+    margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
      margin: 0;
     padding: 0;
-    background-color: #b1afaf;
+    background-color: #004166;
 }
 header {
-    background-color: #333;
+    background-color: #093046;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -13,7 +14,7 @@ header {
 nav {
     text-align: center;
     padding: 10px 0;
-    background-color: #666;
+    background-color: #2978A6;
 }
 nav a {
     text-decoration: none;
@@ -21,15 +22,13 @@ nav a {
     padding: 10px 20px;
 }
 nav a:hover {
-    background-color: #999;
+    background-color: #093046;
 }
 section {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-    background-color: #fff;
-
-    
+    background-color: #DFF3FF;
 }
 footer {
     text-align: center;
@@ -39,4 +38,15 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.contact-buttom{
+    
+    border-radius: 20px;
+}
+#contact-buttom{
+    background-color: #DFF3FF;
+    border: none;
+}
+#image-buttom{
+    height: 35px;
 }

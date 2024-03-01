@@ -4,7 +4,7 @@
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    
+
     margin: 0;
     padding: 0;
     background-color: #004166;
@@ -40,8 +40,35 @@ section {
     background-color: #DFF3FF;
 }
 
-#escrita-botao-projetos{
-    color: inherit; 
+#escrita-botao-certificados {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+#botao-certificados {
+    background-color: #DFF3FF;
+    display: flex;
+    padding: 0px;
+    border: none;
+
+    h4 {
+        margin-left: 5px;
+
+    }
+
+}
+
+#imagem-certificados {
+    padding-top: 5px;
+    padding-right: 1px;
+    background-color: #DFF3FF;
+    border: none;
+    height: 35px;
+}
+
+#escrita-botao-projetos {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -50,10 +77,11 @@ section {
     display: flex;
     padding: 0px;
     border: none;
-    h4{
+
+    h4 {
         margin-left: 5px;
     }
-    
+
 }
 
 #imagem-bandeira {
@@ -70,13 +98,14 @@ section {
     display: flex;
     padding: 0px;
     border: none;
-    h4{
+
+    h4 {
         margin-left: 5px;
     }
 }
 
 #imagem-avatar {
-   
+
     padding-top: 5px;
     padding-right: 1px;
     background-color: #DFF3FF;

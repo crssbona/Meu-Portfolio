@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body {
+    font-family: "Young Serif", serif;
+    background-color: #f2e6d9;
+    display: flex;
+}
+
+h2 {
+    color: #6e4430;
+}
+
+.attribution {
+    font-size: 10px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.bloco-central {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#imagem-receita {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.preparation-time {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preparation-time h3 {
+    color: #5b293f;
+}
+
+.nutritional-atributes {
+    text-align: center;
+    strong {
+        color: #754538;
+    }
+}

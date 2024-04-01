@@ -7,11 +7,13 @@ body {
     padding: 0;
     background-color: #004166;
 }
-.container h1{
+h2{
+    font-size: 2em;
     text-align: center;
     color: #fff;
 }
-.container {
+
+.certificados {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
